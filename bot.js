@@ -22,6 +22,16 @@ client.on('message', message => {
 
 });
 
+client.on('message', message => {
+
+    if (message.content === 'oof') {
+
+       message.reply('Waarom nou oof?');
+
+       }
+
+});
+
  
 
 // THIS  MUST  BE  THIS  WAY
