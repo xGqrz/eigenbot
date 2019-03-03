@@ -6,7 +6,7 @@ const fs = require("fs");
 const bot = new discord.Client();
 bot.commands = new discord.Collection();
 
-fs.readdir("./commands/", (err, files) => {
+fs.readdir("./", (err, files) => {
 
   if (err) console.log(err);
 
